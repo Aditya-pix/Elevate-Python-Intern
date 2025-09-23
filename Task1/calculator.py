@@ -44,7 +44,7 @@ def calculator():
             continue
 
         if choice == "1":
-            print(Fore.GREEN + "Result: ",{add(num1, num2)})
+            print(Fore.GREEN + "Result: ",add(num1, num2))
         elif choice == "2":
             print(Fore.GREEN + "Result: ",subtract(num1, num2))
         elif choice == "3":
